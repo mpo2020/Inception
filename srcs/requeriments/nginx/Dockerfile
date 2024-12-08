@@ -1,4 +1,4 @@
-FROM Alpine:3.20
+FROM alpine:3.20
 
 #instalando o nginx
 RUN apk update && apk upgrade && apk add --no-cache nginx
